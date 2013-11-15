@@ -1,0 +1,24 @@
+section{
+  border: solid grey;
+  border-width: thin 0 0 0;
+  margin: 10px 20px;
+  padding: 10px 0;
+}
+
+
+#flex-grid div{
+  background-color: red;
+}
+
+#flex-grid div:nth-child(even){
+  background-color: orange;
+}
+
+
+.big-background-image{
+  background-image: url(http://faithcenter.files.wordpress.com/2010/03/happy-people-multicultural-5.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  min-height: 100px;
+}

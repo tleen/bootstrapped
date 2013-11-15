@@ -4,9 +4,13 @@
 
 		<title>Trying out Bootstrap 3</title>
 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" type="text/css" />
 		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/readable/bootstrap.min.css" type="text/css" /> -->
+
+		<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
 	<body>
 		<header>
@@ -14,6 +18,14 @@
 		</header>
 		
 		<div id="main">
+
+			<section id="current-size">
+				<div class="visible-xs">Extra Small</div>
+				<div class="visible-sm">Small</div>
+				<div class="visible-md">Medium</div>
+				<div class="visible-lg">Large</div>
+			</section>
+
 			<section id="header-sizes">
 				<h1>Header One</h1>
 				<h2>Header Two</h2>
@@ -21,6 +33,35 @@
 				<h4>Header Four</h4>
 				<h5>Header Five</h5>
 				<h6>Header Six</h6>
+			</section>
+
+			<section id="flex-grid">
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-2">first</div>
+					<div class="col-sm-6 col-md-4 col-lg-2">second</div>
+					<div class="col-sm-6 col-md-4 col-lg-2">third</div>
+					<div class="col-sm-6 col-md-4 col-lg-2">fourth</div>
+					<div class="col-sm-6 col-md-4 col-lg-2">fifth</div>
+					<div class="col-sm-6 col-md-4 col-lg-2">sixth</div>
+				</div>
+			</section>
+
+			<section id="helper">
+				<div class="center-block">
+					Center Block
+				</div>
+			</section>
+
+			<section id="jumbotron-example">
+				<div class="jumbotron">
+					I am a Jumbotron.
+				</div>
+			</section>
+
+			<section id="replaced-text">
+				<div class="text-hide big-background-image">
+					Don't show this text
+				</div>
 			</section>
 		</div>
 

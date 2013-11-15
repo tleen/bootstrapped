@@ -1,4 +1,4 @@
 bootstrapped
 ============
 
-Tester for Bootstrap3
+Tester for Bootstrap3, a scratchpad.
